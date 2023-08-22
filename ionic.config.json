@@ -1,0 +1,7 @@
+{
+  "name": "pizzario",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
