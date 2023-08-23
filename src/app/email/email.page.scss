@@ -1,0 +1,87 @@
+.onda{
+  height: 300px;
+  width: 360px;
+  background: black;
+  color: white;
+  text-align: center;
+  border-radius: 0px 0px 180px 180px;
+}
+
+.cabecalho{
+  padding-top: 10px;
+}
+
+.titulo{
+  font-size: 52px;
+  padding-top: 80px;
+}
+
+.subtitulo{
+  font-size: small;
+}
+
+.labels{
+  font-weight: bolder;
+  color: goldenrod;
+  margin-left: 25px;
+}
+
+.entradas{
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.esquece{
+  color: gray;
+  font-size: small;
+  text-align: center;
+}
+
+.entrar{
+  --background: black;
+  color: goldenrod;
+  margin-left: 25px;
+  margin-right: 25px;
+  font-weight: bold;
+}
+
+.botao{
+  margin-top: 65px;
+}
+
+.naotem{
+  text-align: center;
+  font-size: small;
+}
+
+.clique{
+  color: goldenrod;
+}
+
+ion-item{
+  --highlight-background: goldenrod;
+}
+
+.feito{
+  color: goldenrod;
+}
+
+.naofeito{
+  color: rgba(goldenrod, 0.6);
+}
+
+.n{
+  font-size: small;
+  color: grey;
+  margin-left: 5px;
+}
+
+.news{
+  --border-color: white;
+}
+
+ion-checkbox{
+  --background-checked: goldenrod;
+  --border-color-checked: goldenrod;
+  --border-color: goldenrod;
+}

@@ -1,20 +1,66 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+  <swiper-container>
+    <swiper-slide>
+      <ion-grid>
+        <ion-row>
+          <ion-col>
+            <img src="assets/super.jpg">
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>
+            <ion-label class="titulo">Endereço de Entrega</ion-label>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>
+            <ion-label class="subtitulo">Comece com seu pedido</ion-label><br>
+            <ion-label class="subtitulo">digitando seu endereço</ion-label>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </swiper-slide>
+    <swiper-slide>
+      <ion-grid>
+        <ion-row>
+          <ion-col>
+            <img src="assets/sombra.jpg">
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>
+            <ion-label class="titulo">Personalize sua Pizza</ion-label>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>
+            <ion-label class="subtitulo">Comece com seu pedido</ion-label><br>
+            <ion-label class="subtitulo">digitando seu endereço</ion-label>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </swiper-slide>
+    <swiper-slide>
+      <ion-grid>
+        <ion-row>
+          <ion-col>
+            <img src="assets/entregador.jpg">
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>
+            <ion-label class="titulo">Sua Pizza está a caminho</ion-label>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>
+            <ion-label class="subtitulo">Comece com seu pedido</ion-label><br>
+            <ion-label class="subtitulo">digitando seu endereço</ion-label>
+            <ion-button class="comecar" expand="block" [routerLink]="['/login']">Vamos Começar</ion-button>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </swiper-slide>
+  </swiper-container>
 </ion-content>
+
